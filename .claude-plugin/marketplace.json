@@ -1,5 +1,5 @@
 {
-  "name": "cs-academic-writing-skills",
+  "name": "cs-academic-writing-skill",
   "owner": {
     "name": "wawabinger",
     "email": "triflehex@gmail.com"
@@ -11,7 +11,6 @@
   "skills": [
     {
       "name": "cs-academic-writing",
-      "path": "skills/cs-academic-writing",
       "description": "Academic writing assistance for computer science documents. Use when users request help writing or polishing academic content."
     }
   ]
