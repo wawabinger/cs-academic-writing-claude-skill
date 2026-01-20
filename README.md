@@ -30,7 +30,7 @@ cp -r /path/to/cs-academic-writing-claude-skills/skills/* ~/.claude/skills/
 ### Via Claude Marketplace
 Open claude code and input the following command in conversation
 ```
-/plugin marketplace add wawabinger/skills
+ /plugin marketplace add wawabinger/cs-academic-writing-claude-skill 
 
 /plugin install cs-academic-writing@wawabinger
 ```
