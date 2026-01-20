@@ -1,17 +1,23 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "cs-academic-writing-skill",
+  "version": "1.0.0",
+  "description": "Claude Code skills for computer science academic writing assistance",
   "owner": {
     "name": "wawabinger",
     "email": "triflehex@gmail.com"
   },
-  "metadata": {
-    "description": "Claude Code skills for computer science academic writing assistance",
-    "version": "1.0.0"
-  },
-  "skills": [
+  "plugins": [
     {
       "name": "cs-academic-writing",
-      "description": "Academic writing assistance for computer science documents. Use when users request help writing or polishing academic content."
+      "description": "Academic writing assistance for computer science documents. Use when users request help writing or polishing academic content.",
+      "version": "1.0.0",
+      "author": {
+        "name": "wawabinger",
+        "email": "triflehex@gmail.com"
+      },
+      "source": "./",
+      "category": "writing"
     }
   ]
 }
